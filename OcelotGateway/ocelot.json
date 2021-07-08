@@ -101,15 +101,15 @@
     //Registration
     {
       "DownstreamPathTemplate": "/api/user/registration",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "bnitechship-5-userservice.azurewebsites.net",
-          "Port": 433
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/api/user/registration",
-      "UpstreamHttpMethod": [ "Get", "Post" ]
+      "UpstreamHttpMethod": [ "GET", "POST" ]
     },
     //Authorization
     {
