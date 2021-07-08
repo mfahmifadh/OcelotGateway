@@ -102,17 +102,17 @@
         "AllowedScopes": []
       }
     },
-    //Authentication
+    //Registration
     {
-      "DownstreamPathTemplate": "/api/user/authentication",
+      "DownstreamPathTemplate": "/api/user/registration",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5011
+          "Host": "bnitechship-5-userservice.azurewebsites.net",
+          "Port": 433
         }
       ],
-      "UpstreamPathTemplate": "/api/user/authentication",
+      "UpstreamPathTemplate": "/api/user/registration",
       "UpstreamHttpMethod": [ "Post" ],
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
@@ -121,15 +121,15 @@
     },
     //Authorization
     {
-      "DownstreamPathTemplate": "/api/user/authorization",
+      "DownstreamPathTemplate": "/api/user/authentication",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5011
+          "Host": "bnitechship-5-userservice.azurewebsites.net",
+          "Port": 433
         }
       ],
-      "UpstreamPathTemplate": "/api/user/authorization",
+      "UpstreamPathTemplate": "/api/user/authentication",
       "UpstreamHttpMethod": [ "Get" ],
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
