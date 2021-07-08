@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'bnitechship-5'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f015a9cb7bc9414a87443a4587a9e6c2 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_08b60c04815d42169ddb289b01e7950d }}
         package: .
