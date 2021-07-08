@@ -113,11 +113,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/user/registration",
-      "UpstreamHttpMethod": [ "Post" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer",
-        "AllowedScopes": []
-      }
+      "UpstreamHttpMethod": [ "Post" ]
     },
     //Authorization
     {
@@ -130,11 +126,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/user/authentication",
-      "UpstreamHttpMethod": [ "Get" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer",
-        "AllowedScopes": []
-      }
+      "UpstreamHttpMethod": [ "Get" ]
     }
   ],
 
