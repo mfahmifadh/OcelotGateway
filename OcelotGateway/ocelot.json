@@ -11,11 +11,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/enrollment",
-      "UpstreamHttpMethod": [ "Get", "Post" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer",
-        "AllowedScopes": []
-      }
+      "UpstreamHttpMethod": [ "Get", "Post" ]
     },
     //Enrollment Service ID
     {
