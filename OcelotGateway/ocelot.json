@@ -6,7 +6,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net/",
+          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net",
           "Port": 443
         }
       ],
@@ -19,7 +19,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net/",
+          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net",
           "Port": 443
         }
       ],
@@ -32,7 +32,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net/",
+          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net",
           "Port": 443
         }
       ],
@@ -45,7 +45,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net/",
+          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net",
           "Port": 443
         }
       ],
@@ -58,7 +58,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net/",
+          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net",
           "Port": 443
         }
       ],
@@ -71,7 +71,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net/",
+          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net",
           "Port": 443
         }
       ],
