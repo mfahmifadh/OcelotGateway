@@ -109,7 +109,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/user/registration",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Get", "Post" ]
     },
     //Authorization
     {
@@ -122,7 +122,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/user/authentication",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Get", "Post" ]
     }
   ],
 
