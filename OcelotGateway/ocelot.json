@@ -6,12 +6,16 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net",
+          "Host": "bnitechship-5-enrollmentservice.azurewebsites.net",
           "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/enrollment",
-      "UpstreamHttpMethod": [ "Get", "Post" ]
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
     },
     //Enrollment Service ID
     {
@@ -19,12 +23,16 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net",
+          "Host": "bnitechship-5-enrollmentservice.azurewebsites.net",
           "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/enrollment/{id}",
-      "UpstreamHttpMethod": [ "Put", "Delete" ]
+      "UpstreamHttpMethod": [ "Put", "Delete" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
     },
     //Student Service
     {
@@ -32,12 +40,16 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net",
+          "Host": "bnitechship-5-enrollmentservice.azurewebsites.net",
           "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/student",
-      "UpstreamHttpMethod": [ "Get", "Post" ]
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
     },
     //Student Service ID
     {
@@ -45,12 +57,16 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net",
+          "Host": "bnitechship-5-enrollmentservice.azurewebsites.net",
           "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/student/{id}",
-      "UpstreamHttpMethod": [ "Get", "Post" ]
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
     },
     //Course Service
     {
@@ -58,12 +74,16 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net",
+          "Host": "bnitechship-5-enrollmentservice.azurewebsites.net",
           "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/course",
-      "UpstreamHttpMethod": [ "Get", "Post" ]
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
     },
     //Course Service ID
     {
@@ -71,12 +91,16 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net",
+          "Host": "bnitechship-5-enrollmentservice.azurewebsites.net",
           "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/course/{id}",
-      "UpstreamHttpMethod": [ "Get", "Post" ]
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
     },
     //Authentication
     {
@@ -89,7 +113,11 @@
         }
       ],
       "UpstreamPathTemplate": "/api/user/authentication",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
     },
     //Authorization
     {
@@ -102,7 +130,11 @@
         }
       ],
       "UpstreamPathTemplate": "/api/user/authorization",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
     }
   ],
 
