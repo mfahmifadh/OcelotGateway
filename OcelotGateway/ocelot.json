@@ -126,7 +126,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/user/authentication",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Post" ]
     }
   ],
 
