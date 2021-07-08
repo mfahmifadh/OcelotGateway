@@ -1,5 +1,6 @@
 {
   "Routes": [
+    //Enrollment Service
     {
       "DownstreamPathTemplate": "/api/enrollment",
       "DownstreamScheme": "https",
@@ -9,9 +10,23 @@
           "Port": 5001
         }
       ],
-      "UpstreamPathTemplate": "/api/enroll",
-      "UpstreamHttpMethod": [ "Get"]
+      "UpstreamPathTemplate": "/api/enrollment",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
     },
+    //Enrollment Service ID
+    {
+      "DownstreamPathTemplate": "/api/enrollment/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/enrollment/{id}",
+      "UpstreamHttpMethod": [ "Put", "Delete" ]
+    },
+    //Student Service
     {
       "DownstreamPathTemplate": "/api/student",
       "DownstreamScheme": "https",
@@ -21,8 +36,73 @@
           "Port": 5001
         }
       ],
-      "UpstreamPathTemplate": "/api/stu",
-      "UpstreamHttpMethod": [ "Get"]
+      "UpstreamPathTemplate": "/api/student",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
+    },
+    //Student Service ID
+    {
+      "DownstreamPathTemplate": "/api/student/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/{id}",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
+    },
+    //Course Service
+    {
+      "DownstreamPathTemplate": "/api/course",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/course",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
+    },
+    //Course Service ID
+    {
+      "DownstreamPathTemplate": "/api/course/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/course/{id}",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
+    },
+    //Authentication
+    {
+      "DownstreamPathTemplate": "/api/user/authentication",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5011
+        }
+      ],
+      "UpstreamPathTemplate": "/api/user/authentication",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    //Authorization
+    {
+      "DownstreamPathTemplate": "/api/user/authorization",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5011
+        }
+      ],
+      "UpstreamPathTemplate": "/api/user/authorization",
+      "UpstreamHttpMethod": [ "Get" ]
     }
   ],
 
