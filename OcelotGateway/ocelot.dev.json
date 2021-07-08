@@ -6,8 +6,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5001
+          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net/",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/enrollment",
@@ -19,8 +19,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5001
+          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net/",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/enrollment/{id}",
@@ -32,8 +32,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5001
+          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net/",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/student",
@@ -45,8 +45,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5001
+          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net/",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/student/{id}",
@@ -58,8 +58,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5001
+          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net/",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/course",
@@ -71,8 +71,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5001
+          "Host": "https://bnitechship-5-enrollmentservice.azurewebsites.net/",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/course/{id}",
