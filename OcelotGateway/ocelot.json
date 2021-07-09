@@ -37,7 +37,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "bnitechship-5-enrollmentservice.azurewebsites.net",
-          "Port": 80
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/student",
@@ -118,7 +118,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "bnitechship-5-userservice.azurewebsites.net",
-          "Port": 433
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/api/user/authentication",
