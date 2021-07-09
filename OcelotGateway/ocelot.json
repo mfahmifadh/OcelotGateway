@@ -24,7 +24,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/enrollment/{id}",
-      "UpstreamHttpMethod": [ "Put", "Delete" ],
+      "UpstreamHttpMethod": [ "Get", "Put", "Delete" ],
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
         "AllowedScopes": []
@@ -58,7 +58,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/student/{id}",
-      "UpstreamHttpMethod": [ "Put", "Delete" ],
+      "UpstreamHttpMethod": [ "Get", "Put", "Delete" ],
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
         "AllowedScopes": []
@@ -92,7 +92,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/course/{id}",
-      "UpstreamHttpMethod": [ "Put", "Delete" ],
+      "UpstreamHttpMethod": [ "Get", "Put", "Delete" ],
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
         "AllowedScopes": []
